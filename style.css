@@ -1,0 +1,52 @@
+body {
+  background: #2C2B3D;
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+  min-height: 100vh;
+}
+
+ul {
+  display: flex;
+  gap: 64px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 101px;
+}
+
+.page {
+  width: 1083px;
+  margin: 0 auto;
+  padding-top: 71px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: normal;
+  
+}
